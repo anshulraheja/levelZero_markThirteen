@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap");
+:root {
+  --black: #333333;
+  --white: whitesmoke;
+  --bdg-clr: rgb(213, 238, 187);
+  --bdg-clr2: rgb(127, 200, 169);
+  --txt-clr: #444941;
+  --bdr-clr: rgb(68, 73, 65);
+  --otp-clr: rgb(243, 240, 215);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: var(--bdg-clr);
+}
+.container {
+  width: 100vmin;
+  text-align: center;
+  background-color: var(--bdg-clr2);
+  border: 2px solid var(--bdr-clr);
+  border-radius: 1rem;
+  margin: 2vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.container p {
+  font-weight: 500;
+  background-color: rgb(247, 246, 242);
+}
+.container input {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  font-size: 1rem;
+}
+
+.btn {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 2rem;
+  background-color: var(--bdr-clr);
+  color: #f3f3f3;
+}
+
+.output {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: var(--otp-clr);
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footer-list {
+  margin: 0.5rem;
+}
+.footer-list > li {
+  display: inline;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+.footer-list li > a {
+  color: var(--fourth);
+}
